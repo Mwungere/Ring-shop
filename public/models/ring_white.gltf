@@ -1,0 +1,2845 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 544,
+            "type": "VEC3",
+            "max": [
+                45.771934509277344,
+                37.952728271484375,
+                45.77193832397461
+            ],
+            "min": [
+                -45.771934509277344,
+                -18.572799682617188,
+                -45.77193069458008
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 544,
+            "type": "VEC3",
+            "max": [
+                0.9987878799438477,
+                1.0,
+                0.9987878799438477
+            ],
+            "min": [
+                -0.9987878799438477,
+                -0.746362566947937,
+                -0.9987879395484924
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 906,
+            "type": "SCALAR",
+            "max": [
+                543
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 540,
+            "type": "VEC3",
+            "max": [
+                45.768314361572266,
+                38.38163757324219,
+                45.771514892578125
+            ],
+            "min": [
+                -45.769229888916016,
+                -18.478702545166016,
+                -45.77162170410156
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 540,
+            "type": "VEC3",
+            "max": [
+                0.9988912343978882,
+                1.0,
+                0.9989580512046814
+            ],
+            "min": [
+                -0.9988912343978882,
+                -0.7474064230918884,
+                -0.9989581108093262
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 894,
+            "type": "SCALAR",
+            "max": [
+                539
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 44826,
+            "type": "VEC3",
+            "max": [
+                10.356634140014648,
+                15.244647979736328,
+                6.950499057769775
+            ],
+            "min": [
+                -10.357357025146484,
+                -10.234542846679688,
+                -6.950068950653076
+            ]
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 44826,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 8,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 269604,
+            "type": "SCALAR",
+            "max": [
+                44825
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 9,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 39414,
+            "type": "VEC3",
+            "max": [
+                0.025001881644129753,
+                0.06089097633957863,
+                0.059535734355449677
+            ],
+            "min": [
+                -0.02500000037252903,
+                0.0,
+                -0.025212960317730904
+            ]
+        },
+        {
+            "bufferView": 10,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 39414,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 11,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 39414,
+            "type": "VEC2",
+            "max": [
+                1.0022938251495361,
+                0.8548581004142761
+            ],
+            "min": [
+                -0.002993285655975342,
+                0.1451425552368164
+            ]
+        },
+        {
+            "bufferView": 12,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 235008,
+            "type": "SCALAR",
+            "max": [
+                39413
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 13,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 42047,
+            "type": "VEC3",
+            "max": [
+                0.022261805832386017,
+                0.05828402563929558,
+                0.05800411105155945
+            ],
+            "min": [
+                -0.022261209785938263,
+                0.0015533999539911747,
+                -0.021644340828061104
+            ]
+        },
+        {
+            "bufferView": 14,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 42047,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 15,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 42047,
+            "type": "VEC2",
+            "max": [
+                1.0054205656051636,
+                0.8487952947616577
+            ],
+            "min": [
+                -0.00525820255279541,
+                0.15131592750549316
+            ]
+        },
+        {
+            "bufferView": 16,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 185856,
+            "type": "SCALAR",
+            "max": [
+                42046
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 6477664,
+            "uri": "ring_white_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 6528,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6528,
+            "byteLength": 6528,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 13056,
+            "byteLength": 3624,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 16680,
+            "byteLength": 6480,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 23160,
+            "byteLength": 6480,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 29640,
+            "byteLength": 3576,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 33216,
+            "byteLength": 537912,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 571128,
+            "byteLength": 537912,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1109040,
+            "byteLength": 1078416,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2187456,
+            "byteLength": 472968,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2660424,
+            "byteLength": 472968,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3133392,
+            "byteLength": 315312,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3448704,
+            "byteLength": 940032,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4388736,
+            "byteLength": 504564,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4893300,
+            "byteLength": 504564,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5397864,
+            "byteLength": 336376,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5734240,
+            "byteLength": 743424,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        },
+        {
+            "uri": "textures/image_1.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "PM3D_rander ring 2_default",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.9822505712509155,
+                    0.6653872728347778,
+                    0.30054378509521484,
+                    1.0
+                ],
+                "roughnessFactor": 0.1899999976158142
+            },
+            "doubleSided": true
+        },
+        {
+            "name": "335_Mystic_Black_Pearl",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.3915724754333496,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.3499999940395355,
+                "roughnessFactor": 0.3400000035762787
+            }
+        },
+        {
+            "name": "001_718_Crystal_Red_Coral_Pearl",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0,
+                    "texCoord": 1
+                },
+                "baseColorFactor": [
+                    0.7454041838645935,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.47999998927116394,
+                "roughnessFactor": 0.20999999344348907
+            },
+            "normalTexture": {
+                "index": 1
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[2]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 2,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 5,
+                    "attributes": {
+                        "POSITION": 3,
+                        "NORMAL": 4
+                    }
+                }
+            ]
+        },
+        {
+            "name": "meshes[1]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 8,
+                    "attributes": {
+                        "POSITION": 6,
+                        "NORMAL": 7
+                    }
+                }
+            ]
+        },
+        {
+            "name": "meshes[48]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 2,
+                    "indices": 12,
+                    "attributes": {
+                        "POSITION": 9,
+                        "NORMAL": 10,
+                        "TEXCOORD_0": 11
+                    }
+                }
+            ]
+        },
+        {
+            "name": "meshes[49]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 3,
+                    "indices": 16,
+                    "attributes": {
+                        "POSITION": 13,
+                        "NORMAL": 14,
+                        "TEXCOORD_0": 15
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "ring_white",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "nodes[64]",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -0.22519288957118988,
+                0.5338237285614014,
+                -0.21554921567440033,
+                1.0
+            ],
+            "children": [
+                2
+            ],
+            "extras": {
+                "pseudoCentered": true,
+                "rootPath": "/ringBox.glb",
+                "autoScaled": true,
+                "autoScaleRadius": 2,
+                "isCentered": true,
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "B82CD41F-3FF7-44D2-B055-C91537D7375C",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Scene_1",
+            "matrix": [
+                1.6262320280075073,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.6262320280075073,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.6262320280075073,
+                0.0,
+                0.22519288957118988,
+                -0.5338237285614014,
+                0.21554921567440033,
+                1.0
+            ],
+            "children": [
+                3,
+                4,
+                7,
+                8,
+                9,
+                10,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65
+            ],
+            "extras": {
+                "name": "Scene",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "DFB926A6-377F-4761-84FF-A2052B3D3BF2",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Camera001",
+            "matrix": [
+                0.05000000074505806,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.005254287272691727,
+                0.04972316324710846,
+                0.0,
+                0.0,
+                -0.04972316324710846,
+                0.005254287272691727,
+                0.0,
+                0.0,
+                0.03730153664946556,
+                0.23643134534358978,
+                1.0
+            ],
+            "extras": {
+                "name": "Camera.001",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "CF5D6010-FEC3-411D-A46D-3AFFDBA1350F",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Texture_Group",
+            "children": [
+                5,
+                6
+            ],
+            "extras": {
+                "name": "Texture Group",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "2E058D67-CD13-428F-9EE3-272792D82BE1",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "AquamarineLlxp_(2)",
+            "extras": {
+                "name": "AquamarineL.lxp (2)",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "C14FCD6C-1F76-4B51-9E4F-0892C69CAFA0",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "EmeraldLlxp_(2)",
+            "extras": {
+                "name": "EmeraldL.lxp (2)",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "EC2D0DC4-76D7-40DF-BF92-CF0458064DF7",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Light001",
+            "matrix": [
+                -0.2908647954463959,
+                -0.05518906190991402,
+                -0.9551711082458496,
+                0.0,
+                0.5663931965827942,
+                0.7946722507476807,
+                -0.2183913141489029,
+                0.0,
+                0.7711007595062256,
+                -0.6045247912406921,
+                -0.19988347589969635,
+                0.0,
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378,
+                1.0
+            ],
+            "extras": {
+                "name": "Light.001",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "285263D2-2805-42A7-A54D-B7C6FE144B1E",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Camera002",
+            "matrix": [
+                0.6859206557273865,
+                8.356439096246504e-9,
+                -0.7276763319969177,
+                0.0,
+                0.6515582203865051,
+                0.44527140259742737,
+                0.6141703724861145,
+                0.0,
+                0.32401347160339355,
+                -0.8953956365585327,
+                0.305420845746994,
+                0.0,
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164,
+                1.0
+            ],
+            "extras": {
+                "name": "Camera.002",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "ACA3880E-075D-4394-8D31-7AE8B60FB170",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "joint1",
+            "matrix": [
+                0.7678928971290588,
+                0.0,
+                -0.6405782699584961,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.6405782699584961,
+                0.0,
+                0.7678928971290588,
+                0.0,
+                0.0005167645867913961,
+                0.023216091096401215,
+                0.0005511497147381306,
+                1.0
+            ],
+            "extras": {
+                "name": "joint1",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "E3FAFCEA-98AC-46D6-8858-FB781444CAA4",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "main_ring",
+            "matrix": [
+                0.5408130288124084,
+                0.0,
+                -0.5683469772338867,
+                0.0,
+                0.0,
+                0.7845361828804016,
+                0.0,
+                0.0,
+                0.5683469772338867,
+                0.0,
+                0.5408130288124084,
+                0.0,
+                0.015753522515296936,
+                0.24179407954216003,
+                0.003207598114386201,
+                1.0
+            ],
+            "children": [
+                11,
+                12
+            ],
+            "extras": {
+                "name": "main_ring",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "8FA6C49B-2E54-4328-BB3E-AFCE937ECCAF",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "oval",
+            "matrix": [
+                0.0017333975993096828,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0016732757212594151,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0022539705969393253,
+                0.0,
+                0.0,
+                0.33185839653015137,
+                0.0,
+                1.0
+            ],
+            "mesh": 1,
+            "extras": {
+                "name": "oval",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "DA7FA019-1974-4CB7-9D75-9C20E1745EE6",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "ring_metal",
+            "matrix": [
+                0.02539999969303608,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.02539999969303608,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.02539999969303608,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                13
+            ],
+            "mesh": 2,
+            "extras": {
+                "name": "ring_metal",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "567ED152-2246-4ACE-B80A-2CC0490968AB",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "side",
+            "matrix": [
+                39.370086669921875,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                39.370086669921875,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                39.370086669921875,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59
+            ],
+            "extras": {
+                "name": "side",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "48A6B7FD-7A28-4550-94DA-B187BA1FA90A",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_006",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.05127151310443878,
+                0.3294762969017029,
+                -0.14672887325286865,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_006",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "ADB0410B-A39B-45D1-8EF0-569D8A689F09",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_001",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.1332101970911026,
+                0.3294762969017029,
+                -0.0004304783360566944,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_001",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "743DED8C-C1E7-4026-8EE0-8EADE972CDFE",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_014",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.1347299963235855,
+                0.3294762969017029,
+                -0.0004304783360566944,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_014",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "40B6CCE4-1C91-4385-A944-1E151536B29A",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_022",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.0808657705783844,
+                0.3294762969017029,
+                0.12833839654922485,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_022",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "65EAC1A7-EC77-4098-BD73-48A0D126E851",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_004",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.06294694542884827,
+                0.3470343351364136,
+                -0.09578212350606918,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_004",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "5C5D0B39-7B4D-43C4-919F-F13482C53931",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_002",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.13016577064990997,
+                0.3294762969017029,
+                -0.03514773026108742,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_002",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "F63627F3-1F7E-4470-96A2-CE88D2E2B291",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_011",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.10398782789707184,
+                0.3294762969017029,
+                -0.10030220448970795,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_011",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "0AC2231C-E918-4D93-965C-F684A82E1A43",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_019",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.10378546267747879,
+                0.3294762969017029,
+                0.100349061191082,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_019",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "AFDB8FA6-E97D-4027-9465-F26B31331CD5",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_020",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.10398782789707184,
+                0.3294762969017029,
+                0.100349061191082,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_020",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "5F357EB9-67A5-4BB4-BE53-E5B2A10DADD7",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_023",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.05127151310443878,
+                0.3294762969017029,
+                0.14860564470291138,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_023",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "1EAFC4D4-202F-4795-9C56-110F3C866C84",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_016",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.0634097158908844,
+                0.3470343351364136,
+                0.09443018585443497,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_016",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "70873F26-EFFC-4693-A547-500730C7E80C",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_007",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.01819356344640255,
+                0.3294762969017029,
+                -0.1580340564250946,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_007",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "CA4552B1-ED96-4F23-B603-616900BB84CA",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_003",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.0821351408958435,
+                0.3470343351364136,
+                -0.06793725490570068,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_003",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "64014254-B92A-44AE-9EC3-F015137CEDB2",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_003",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.12068202346563339,
+                0.3294762969017029,
+                -0.06908967345952988,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_003",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "91654568-5824-454D-94E3-13CF053CFC81",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_010",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.0808657705783844,
+                0.3294762969017029,
+                -0.12721797823905945,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_010",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "B668AC3B-4952-4CC2-8F9F-A93E8A0D3D39",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_018",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.12064699828624725,
+                0.3294762969017029,
+                0.06969336420297623,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_018",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "ACF53F2B-4100-4F61-B4EA-3F5064E5DE83",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_011",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.0977478101849556,
+                0.3470343351364136,
+                -0.000020382874936331064,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_011",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "5C62A3C3-A792-40FC-B78D-B5E3E8B722EB",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_004",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.10378546267747879,
+                0.3294762969017029,
+                -0.10030220448970795,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_004",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "8FB4124C-75BB-4A43-8571-9DC6A9D0B867",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_002",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.09249241650104523,
+                0.3470343351364136,
+                -0.03443073108792305,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_002",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "AC80299E-BDF0-4BF3-8FB4-782A6DBA4DEF",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_008",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.06077779829502106,
+                0.3470343351364136,
+                -0.09601343423128128,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_008",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "6E8C2ED0-BBFE-48F5-9FDE-6A41931C344D",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_018",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.033291321247816086,
+                0.3470343351364136,
+                0.1162126362323761,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_018",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "4BED0E0E-F032-40D4-8506-C4F90E607D2A",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_007",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.034088198095560074,
+                0.3470343351364136,
+                -0.11620883643627167,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_007",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "2EED0FAA-5DBC-400C-86D3-6265AAFDCDBC",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_006",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.3470343351364136,
+                -0.12291215360164642,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_006",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "FDEB7E18-3B95-4A93-AF9B-3D1C70A601B7",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_019",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.034088198095560074,
+                0.3470343351364136,
+                0.11512748152017593,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_019",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "9F0EE775-67E8-419A-9870-EAE352B753D0",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_015",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.08342262357473373,
+                0.3470343351364136,
+                0.06745168566703796,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_015",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "30429ED1-D0C5-417E-96CD-E6647ABD35A7",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_017",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.12068202346563339,
+                0.3294762969017029,
+                0.06969336420297623,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_017",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "FE39258B-5D0B-4A9A-943F-7FFB68EE6455",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_010",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.09436184167861938,
+                0.3470343351364136,
+                -0.03443073108792305,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_010",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "E1F45855-9FFA-42E3-A2D4-3A846B13613F",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_013",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.13013727962970734,
+                0.3294762969017029,
+                -0.03514773026108742,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_013",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "FEF973EC-C4F4-4596-B268-CF2342776D14",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_005",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.08109232038259506,
+                0.3294762969017029,
+                -0.12721797823905945,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_005",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "ADCBC87B-4C94-45B6-B441-D75744821AC3",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_008",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.017144445329904556,
+                0.3294762969017029,
+                -0.1580340564250946,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_008",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "4097D819-554C-4151-8E06-446FF8946542",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_015",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.13016577064990997,
+                0.3294762969017029,
+                0.035220928490161896,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_015",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "7EE85B3D-4876-42D1-A299-DB3D52A4AEC5",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_012",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.12064699828624725,
+                0.3294762969017029,
+                -0.06908967345952988,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_012",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "FFA040C6-E77A-4CC9-B27A-D13F9D654E4F",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_005",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.033291321247816086,
+                0.3470343351364136,
+                -0.1151236742734909,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_005",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "31914FA5-C517-4A7A-8D8C-F19944E5D841",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_001",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.09519163519144058,
+                0.3470343351364136,
+                -0.000020382874936331064,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_001",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "F0E54D6F-8269-407A-8703-F0F14C9B2F2D",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_016",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.13013727962970734,
+                0.3294762969017029,
+                0.035220928490161896,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_016",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "2A3D0547-D686-4980-A43E-82D5D11D9FBC",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_009",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.08342262357473373,
+                0.3470343351364136,
+                -0.06793725490570068,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_009",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "25209922-DAD3-428E-BA63-B07170538E47",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_012",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.09249241650104523,
+                0.3470343351364136,
+                0.03471168503165245,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_012",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "A3BABFFD-B24E-4E88-8437-D3B782F4A87E",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_017",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.06132617965340614,
+                0.3470343351364136,
+                0.09443018585443497,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_017",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "03BB31EC-CC3E-4784-9DE6-C226A7EE98F6",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_009",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.05121910572052002,
+                0.3294762969017029,
+                -0.14672887325286865,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_009",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "4BF9ABAC-5870-4174-B3AE-4D82AC519B20",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_013",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.09436184167861938,
+                0.3470343351364136,
+                0.03471168503165245,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_013",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "D73ABE24-B322-431F-B2E1-04C239A299C0",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_024",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.05121910572052002,
+                0.3294762969017029,
+                0.14860564470291138,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_024",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "A6A52E07-61B4-4DCD-969F-B301698A14F9",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_026",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.017144445329904556,
+                0.3294762969017029,
+                0.1565532684326172,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_026",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "557B6375-CB14-46F6-B185-485B80FA15ED",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_021",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.08109232038259506,
+                0.3294762969017029,
+                0.12833839654922485,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_021",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "788C20D9-6608-44BF-9662-17DDF428FA44",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_020",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.3470343351364136,
+                0.12305989116430283,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_020",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "A399135B-DCDF-40DE-92A5-1D4C419F5933",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_2_014",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.0821351408958435,
+                0.3470343351364136,
+                0.06745168566703796,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_2_014",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "4BEDD128-694D-4746-9368-83C7023A4F4C",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "dia_1\u001F_025",
+            "matrix": [
+                0.0003763518179766834,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.00039867841405794024,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0003763518179766834,
+                0.0,
+                -0.01819356344640255,
+                0.3294762969017029,
+                0.1565532684326172,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "dia_1\u001F_025",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "42EA43E0-EEE5-4E7E-90C8-F8F679193F34",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "Light002",
+            "matrix": [
+                -0.2908647954463959,
+                -0.05518906190991402,
+                -0.9551711082458496,
+                0.0,
+                0.5663931965827942,
+                0.7946722507476807,
+                -0.2183913141489029,
+                0.0,
+                0.7711007595062256,
+                -0.6045247912406921,
+                -0.19988347589969635,
+                0.0,
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378,
+                1.0
+            ],
+            "extras": {
+                "name": "Light.002",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "26F11EF2-C841-45B9-B985-2BD6652D7FDC",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Camera003",
+            "matrix": [
+                0.6859206557273865,
+                8.356439096246504e-9,
+                -0.7276763319969177,
+                0.0,
+                0.6515582203865051,
+                0.44527140259742737,
+                0.6141703724861145,
+                0.0,
+                0.32401347160339355,
+                -0.8953956365585327,
+                0.305420845746994,
+                0.0,
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164,
+                1.0
+            ],
+            "extras": {
+                "name": "Camera.003",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "CD16656D-F42B-414B-882C-CD62BD4E8677",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Light",
+            "matrix": [
+                -0.2908647954463959,
+                -0.05518906190991402,
+                -0.9551711082458496,
+                0.0,
+                0.5663931965827942,
+                0.7946722507476807,
+                -0.2183913141489029,
+                0.0,
+                0.7711007595062256,
+                -0.6045247912406921,
+                -0.19988347589969635,
+                0.0,
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378,
+                1.0
+            ],
+            "extras": {
+                "name": "Light",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "92DDFBDC-BE3C-4DF4-8C17-C1AEAD930E8D",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Camera",
+            "matrix": [
+                0.6859206557273865,
+                8.356439096246504e-9,
+                -0.7276763319969177,
+                0.0,
+                0.6515582203865051,
+                0.44527140259742737,
+                0.6141703724861145,
+                0.0,
+                0.32401347160339355,
+                -0.8953956365585327,
+                0.305420845746994,
+                0.0,
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164,
+                1.0
+            ],
+            "extras": {
+                "name": "Camera",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "FB69EEDD-D5B3-4ABA-8BDF-B4A16CC6A92D",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": false,
+                        "receiveShadow": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "item01",
+            "matrix": [
+                -12.398238182067871,
+                0.0,
+                12.398238182067871,
+                0.0,
+                0.0,
+                17.533754348754883,
+                0.0,
+                0.0,
+                -12.398238182067871,
+                0.0,
+                -12.398238182067871,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "mesh": 3,
+            "extras": {
+                "name": "item01",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "58461D11-4734-405A-A29C-081AF214BA39",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "item02",
+            "matrix": [
+                -12.398238182067871,
+                0.0,
+                12.398238182067871,
+                0.0,
+                0.0,
+                17.533754348754883,
+                0.0,
+                0.0,
+                -12.398238182067871,
+                0.0,
+                -12.398238182067871,
+                0.0,
+                0.0,
+                0.00281503121368587,
+                0.0,
+                1.0
+            ],
+            "mesh": 4,
+            "extras": {
+                "name": "item02",
+                "TransformAnimationPlugin": {
+                    "transforms": {}
+                },
+                "gltfUUID": "AC3C4D45-66D0-4574-94DF-94DB8A4E21EA",
+                "gltfExtensions": {
+                    "WEBGI_object3d_extras": {
+                        "castShadow": true,
+                        "receiveShadow": true
+                    }
+                }
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1,
+            "sampler": 1
+        }
+    ],
+    "scene": 0
+}
