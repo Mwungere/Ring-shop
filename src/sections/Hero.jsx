@@ -122,7 +122,7 @@ const Hero = () => {
                   <div>
                     <h2 className="text-sm font-bold">{items.rings[activeRing].title}</h2>
                     <p className="text-gray-500">{items.rings[activeRing].subtitle}</p>
-                    <p className="text-sm text-gray-400">{items.rings[activeRing].price}</p>
+                    <p className="text-sm text-gray-400">${items.rings[activeRing].price}</p>
                   </div>
                 </div>
                 <div>
@@ -142,7 +142,7 @@ const Hero = () => {
                   <div>
                     <h2 className="text-sm font-bold">{items.boxes[activeBox].title}</h2>
                     <p className="text-gray-500">{items.boxes[activeBox].subtitle}</p>
-                    <p className="text-sm text-gray-400">{items.boxes[activeBox].price}</p>
+                    <p className="text-sm text-gray-400">${items.boxes[activeBox].price}</p>
                   </div>
                 </div>
                 <div>
@@ -224,7 +224,7 @@ const Hero = () => {
                     <img src={ring.image} alt={ring.title} className="h-[100px] w-[100px] rounded-md bg-gray-200" />
                     <div>
                       <h2 className="text-sm font-bold">{ring.title}</h2>
-                      <p className="text-sm text-gray-400">{ring.price}</p>
+                      <p className="text-sm text-gray-400">${ring.price}</p>
                     </div>
                   </div>
 
@@ -257,7 +257,7 @@ const Hero = () => {
                     <img src={box.image} alt={box.title} className="h-[100px] w-[100px] rounded-md" />
                     <div>
                       <h2 className="text-sm font-bold">{box.title}</h2>
-                      <p className="text-sm text-gray-400">{box.price}</p>
+                      <p className="text-sm text-gray-400">${box.price}</p>
                     </div>
                   </div>
 
