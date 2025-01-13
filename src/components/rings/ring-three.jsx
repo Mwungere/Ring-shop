@@ -5,7 +5,7 @@ export function RingThree(props) {
   const { nodes, materials } = useGLTF('/models/ring_3/ring-3.glb');
   return (
     <group {...props} dispose={null}>
-      <group position={[0.016, 0.042, 0.005]} rotation={[0, -0.5, 0]} scale={1.5}>
+      <group position={[0.016, 0.042, 0.005]} rotation={[0, -0.5, 0]} scale={1.2}>
         {' '}
         <mesh
           castShadow

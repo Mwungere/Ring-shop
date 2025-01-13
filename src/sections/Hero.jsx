@@ -2,8 +2,8 @@ import { Leva } from 'leva';
 import { Suspense, useRef, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { useMediaQuery } from 'react-responsive';
-import { ArrowLeft, ChevronLeft, Edit, Ellipsis, ExternalLink, Pencil } from 'lucide-react';
-import { PerspectiveCamera } from '@react-three/drei';
+import { ArrowLeft, Check, ChevronLeft, Edit, Ellipsis, ExternalLink, Info, Pencil } from 'lucide-react';
+import { PerspectiveCamera, SpotLight } from '@react-three/drei';
 
 import CanvasLoader from '../components/Loading.jsx';
 import HeroCamera from '../components/HeroCamera.jsx';
@@ -15,7 +15,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { useNavigate } from 'react-router-dom';
 
-const RotatingModel = ({ scale, position, rotation }) => {
+const RotatingModel = ({ scale, position, rotation, activeRing, activeBox }) => {
   const modelRef = useRef();
   const [isHovered, setIsHovered] = useState(false);
 
@@ -33,7 +33,7 @@ const RotatingModel = ({ scale, position, rotation }) => {
       rotation={rotation}
       onPointerOver={() => setIsHovered(true)}
       onPointerOut={() => setIsHovered(false)}>
-      <ModelOne />
+      <ModelOne activeRing={activeRing} activeBox={activeBox} />
     </group>
   );
 };
@@ -42,20 +42,23 @@ const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
   const navigate = useNavigate();
   const [isEn, setIsEn] = useState(true);
-  // const [activeItem, setActiveItem] = useState(null); // Track the selected item
-  // const swiper = useSwiper(); // Access Swiper instance
+  const [activeRing, setActiveRing] = useState(0);
+  const [activeBox, setActiveBox] = useState(0);
 
-  // const handleItemClick = (item) => {
-  //   setActiveItem(item); // Set the active item for editing
-  //   swiper.slideTo(1); // Navigate to the editing slide
-  // };
+  const handleSetActiveRing = () => {
+    console.log('active ring', activeRing);
+    slideTo(0);
+  };
+
+  const handleSetActiveBox = () => {
+    console.log('active box', activeBox);
+    slideTo(0);
+  };
 
   const [swiperRef, setSwiperRef] = useState(null);
 
-  
-
   const slideTo = (index) => {
-    swiperRef.slideTo(index, 200);
+    swiperRef.slideTo(index, 300);
   };
   return (
     <section
@@ -65,14 +68,20 @@ const Hero = () => {
         <Canvas className="max-h-[600px] max-w-[800px]">
           <Suspense fallback={<CanvasLoader />}>
             <Leva hidden />
-            <PerspectiveCamera makeDefault position={[0, 0, 10]} />
-
+            <PerspectiveCamera makeDefault position={[10, 10, 10]} />
+            {/* <Light /> */}
             <HeroCamera isMobile={isMobile}>
-              <RotatingModel scale={5} position={[-1, -4, 0]} rotation={[0.1, -Math.PI, 0]} />
+              <RotatingModel
+                activeRing={activeRing}
+                activeBox={activeBox}
+                scale={5}
+                position={[-1, -4, 0]}
+                rotation={[0.1, -Math.PI, 0]}
+              />
             </HeroCamera>
 
             <ambientLight intensity={1} />
-            <directionalLight position={[10, 10, 10]} intensity={0.5} />
+            <directionalLight position={[0, 0, 10]} intensity={1} color={0xffffff} />
           </Suspense>
         </Canvas>
       </div>
@@ -89,32 +98,57 @@ const Hero = () => {
           className="mySwiper">
           <SwiperSlide virtualIndex={0}>
             <div className=" w-full p-2 flex justify-end">
-              <Ellipsis onClick={() => slideTo(1)} className=" size-6 cursor-pointer swiper-button-next top-8 text-black-300" />
+              <Ellipsis
+                onClick={() => slideTo(1)}
+                className=" size-6 cursor-pointer swiper-button-next top-8 text-black-300"
+              />
             </div>
 
             <div className=" w-full flex flex-col items-center mt-10">
               <h1 className=" font-generalsans text-3xl">Your Wallet</h1>
-              <p className=" text-gray-500">44.90 &euro;</p>
+              <p className=" text-gray-500">${(parseFloat(items.rings[activeRing].price) + parseFloat(items.boxes[activeBox].price)).toFixed(2)}</p>
             </div>
 
             <div className=" mt-[80px] flex flex-col gap-5 px-3 mb-60">
-              {items.map(({ title, subtitle, image, price, slide }, index) => (
-                <div
-                  key={index}
-                  className="flex justify-between items-center px-2 hover:border hover:border-gray-200 py-1 rounded-md transition-all duration-100 my-2 group hover:cursor-pointer">
-                  <div className="flex items-center gap-4">
-                    <img src={image} alt={title} className="h-[100px] w-[100px] rounded-md" />
-                    <div>
-                      <h2 className="text-sm font-bold">{title}</h2>
-                      <p className="text-gray-500">{subtitle}</p>
-                      <p className="text-sm text-gray-400">{price}</p>
-                    </div>
-                  </div>
+              <div
+                onClick={() => slideTo(2)}
+                className="flex justify-between items-center px-2 hover:border hover:border-gray-200 py-1 rounded-md transition-all duration-100 my-2 group hover:cursor-pointer">
+                <div className="flex items-center gap-4">
+                  <img
+                    src={items.rings[activeRing].image}
+                    alt={items.rings[activeRing].title}
+                    className="h-[100px] w-[100px] rounded-md bg-gray-200"
+                  />
                   <div>
-                    <Pencil className=" size-4 text-red-500 group-hover:-translate-x-4 transition-all duration-200" />
+                    <h2 className="text-sm font-bold">{items.rings[activeRing].title}</h2>
+                    <p className="text-gray-500">{items.rings[activeRing].subtitle}</p>
+                    <p className="text-sm text-gray-400">{items.rings[activeRing].price}</p>
                   </div>
                 </div>
-              ))}
+                <div>
+                  <Pencil className=" size-4 text-red-500 group-hover:-translate-x-4 transition-all duration-200" />
+                </div>
+              </div>
+
+              <div
+                onClick={() => slideTo(3)}
+                className="flex justify-between items-center px-2 hover:border hover:border-gray-200 py-1 rounded-md transition-all duration-100 my-2 group hover:cursor-pointer">
+                <div className="flex items-center gap-4">
+                  <img
+                    src={items.boxes[activeBox].image}
+                    alt={items.boxes[activeBox].title}
+                    className="h-[100px] w-[100px] rounded-md bg-gray-200"
+                  />
+                  <div>
+                    <h2 className="text-sm font-bold">{items.boxes[activeBox].title}</h2>
+                    <p className="text-gray-500">{items.boxes[activeBox].subtitle}</p>
+                    <p className="text-sm text-gray-400">{items.boxes[activeBox].price}</p>
+                  </div>
+                </div>
+                <div>
+                  <Pencil className=" size-4 text-red-500 group-hover:-translate-x-4 transition-all duration-200" />
+                </div>
+              </div>
             </div>
 
             <div className="px-2 flex justify-center items-center">
@@ -174,6 +208,72 @@ const Hero = () => {
               <p className=" text-sm text-center font-medium text-gray-400">
                 Designed + Developed by soehne.co <br /> © 2024, Lockcard.
               </p>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide virtualIndex={2} className=" flex flex-col justify-center items-center p-4">
+            <h2 className=" font-medium text-xl">Ring</h2>
+
+            <div className=" w-full mt-[80px] flex flex-col mb-20 gap-2">
+              {items.rings.map((ring) => (
+                <div
+                  onClick={() => setActiveRing(ring.id)}
+                  key={ring.id}
+                  className={` ${activeRing == ring.id ? 'border border-black transition-all duration-100' : ''} w-full flex justify-between items-start p-2 hover:ring hover:ring-gray-100 rounded-md cursor-pointer transition-all duration-200 `}>
+                  <div className="flex items-center gap-4">
+                    <img src={ring.image} alt={ring.title} className="h-[100px] w-[100px] rounded-md bg-gray-200" />
+                    <div>
+                      <h2 className="text-sm font-bold">{ring.title}</h2>
+                      <p className="text-sm text-gray-400">{ring.price}</p>
+                    </div>
+                  </div>
+
+                  <div>
+                    {activeRing == ring.id ? <Info className=" rounded-full text-gray-500 m-2 self-start" /> : ''}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className=" w-full flex justify-center items-center mt-36 ">
+              <button
+                onClick={() => handleSetActiveRing()}
+                className="mx-auto bg-black-300 hover:bg-black transition-colors duration-300 text-white text-sm font-semibold w-full h-10 rounded-md">
+                <Check className=" mx-auto size-7" />
+              </button>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide virtualIndex={3} className=" flex flex-col justify-center items-center p-4">
+            <h2 className=" font-medium text-xl">Box</h2>
+
+            <div className=" w-full mt-[80px] flex flex-col mb-20 gap-2">
+              {items.boxes.map((box) => (
+                <div
+                  onClick={() => setActiveBox(box.id)}
+                  key={box.id}
+                  className={` ${activeBox == box.id ? 'border border-black transition-all duration-100' : ''} w-full flex justify-between items-start p-2 hover:ring hover:ring-gray-100 rounded-md cursor-pointer transition-all duration-200 `}>
+                  <div className="flex items-center gap-4">
+                    <img src={box.image} alt={box.title} className="h-[100px] w-[100px] rounded-md" />
+                    <div>
+                      <h2 className="text-sm font-bold">{box.title}</h2>
+                      <p className="text-sm text-gray-400">{box.price}</p>
+                    </div>
+                  </div>
+
+                  <div>
+                    {activeBox == box.id ? <Info className=" rounded-full text-gray-500 m-2 self-start" /> : ''}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className=" w-full flex justify-center items-center mt-36 ">
+              <button
+                onClick={() => handleSetActiveBox()}
+                className="mx-auto bg-black-300 hover:bg-black transition-colors duration-300 text-white text-sm font-semibold w-full h-10 rounded-md">
+                <Check className=" mx-auto size-7" />
+              </button>
             </div>
           </SwiperSlide>
         </Swiper>

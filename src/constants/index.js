@@ -20,39 +20,50 @@ export const navLinks = [
     href: '#contact',
   },
 ];
+export const items = {
+  rings: [
+    {
+      id: 0,
+      image: '/assets/rings/ring-1.png',
+      title: 'Diamond Elegance',
+      price: 199.99,
+    },
+    {
+      id: 1,
+      image: '/assets/rings/ring-2.png',
+      title: 'Ruby Glow',
+      price: 149.99,
+    },
+    {
+      id: 2,
+      image: '/assets/rings/ring-3.png',
+      title: 'Emerald Radiance',
+      price: 179.99,
+    },
+    {
+      id: 3,
+      image: '/assets/rings/ring-4.png',
+      title: 'Sapphire Sparkle',
+      price: 159.99,
+    },
+  ],
+  boxes: [
+    {
+      id: 0,
+      image: '/assets/boxes/box-1.png',
+      title: 'Classic Jewelry Box',
+      price: 49.99,
+    },
+    {
+      id: 1,
+      image: '/assets/boxes/box-2.png',
+      title: 'Velvet Ring Case',
+      price: 39.99,
+    }
+    
+  ],
+};
 
-export const items = [
-  {
-    id: 1,
-    image: '/assets/ring1.jpg',
-    title: 'Product 1',
-    subtitle: 'A great product',
-    price: '$19.99',
-    slide: 1
-  },
-  {
-    id: 2,
-    image: '/assets/ring2.jpg',
-    title: 'Product 2',
-    subtitle: 'Another amazing item',
-    price: '$29.99',
-    slide: 2
-  },
-  // {
-  //   id: 3,
-  //   image: '/assets/ring3.jpg',
-  //   title: 'Product 3',
-  //   subtitle: 'Top of the line product',
-  //   price: '$39.99',
-  // },
-  // {
-  //   id: 4,
-  //   image: '/assets/ring4.jpg',
-  //   title: 'Product 4',
-  //   subtitle: 'Best seller',
-  //   price: '$49.99',
-  // },
-];
 
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {

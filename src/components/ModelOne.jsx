@@ -8,7 +8,9 @@ import { BoxOne } from './boxes/box-one';
 import { RingFour } from './rings/ring-four';
 import { BoxTwo } from './boxes/box-two';
 
-export function ModelOne(props) {
+export function ModelOne({activeRing, activeBox}, ...props) {
+  console.log("activeRing in model is", activeRing);
+  
   const { nodes: nodesOne, materials: materialsOne } = useGLTF('/models/ring_1/ring_white.glb');
   return (
     <group {...props} dispose={null}>
@@ -16,24 +18,25 @@ export function ModelOne(props) {
         <group position={[0.225, -0.534, 0.216]} scale={1.626}>
 
           {/* ring-1 */}
-          {/* <RingOne /> */}
+        
+          {activeRing == 0 && <RingOne />}
 
           {/* ring-2 */}
-          {/* <RingTwo /> */}
+          {activeRing == 1 && <RingTwo />}
 
           {/* ring-3 */}
-          {/* <RingThree /> */}
+          {activeRing == 2 && <RingThree />}
 
           {/* ring four */}
-          <RingFour />
+          {activeRing == 3 && <RingFour />}
 
           {/* box one */}
 
-          {/* <BoxOne /> */}
+          {activeBox == 0 && <BoxOne />}
 
           {/* box two */}
 
-          <BoxTwo />
+          {activeBox == 1 && <BoxTwo /> }
 
         </group>
       </group>

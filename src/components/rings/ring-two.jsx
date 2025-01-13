@@ -6,7 +6,7 @@ export function RingTwo(props) {
   return (
     <group {...props} dispose={null}>
           {/* ring-2 */}
-          <group position={[0.016, 0.342, 0.005]} rotation={[-Math.PI / 2, 0, 0.76]} scale={2}>
+          <group position={[0.016, 0.222, 0.005]} rotation={[-Math.PI / 2, 0, 0.76]} scale={2.5}>
             <mesh
               castShadow
               receiveShadow
