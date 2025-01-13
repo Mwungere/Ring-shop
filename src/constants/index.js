@@ -28,6 +28,7 @@ export const items = [
     title: 'Product 1',
     subtitle: 'A great product',
     price: '$19.99',
+    slide: 1
   },
   {
     id: 2,
@@ -35,21 +36,22 @@ export const items = [
     title: 'Product 2',
     subtitle: 'Another amazing item',
     price: '$29.99',
+    slide: 2
   },
-  {
-    id: 3,
-    image: '/assets/ring3.jpg',
-    title: 'Product 3',
-    subtitle: 'Top of the line product',
-    price: '$39.99',
-  },
-  {
-    id: 4,
-    image: '/assets/ring4.jpg',
-    title: 'Product 4',
-    subtitle: 'Best seller',
-    price: '$49.99',
-  },
+  // {
+  //   id: 3,
+  //   image: '/assets/ring3.jpg',
+  //   title: 'Product 3',
+  //   subtitle: 'Top of the line product',
+  //   price: '$39.99',
+  // },
+  // {
+  //   id: 4,
+  //   image: '/assets/ring4.jpg',
+  //   title: 'Product 4',
+  //   subtitle: 'Best seller',
+  //   price: '$49.99',
+  // },
 ];
 
 

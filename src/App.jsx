@@ -6,7 +6,7 @@ import Navbar from './sections/Navbar.jsx';
 const App = () => {
   return (
     <Router>
-      <main className="max-h-screen overflow-hidden mx-auto relative">
+      <main className="max-h-screen mx-auto relative">
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/hero" element={<Hero />} />
