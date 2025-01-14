@@ -1,5 +1,5 @@
 import { Leva } from 'leva';
-import { Suspense, useRef, useState } from 'react';
+import { Suspense, useEffect, useRef, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { useMediaQuery } from 'react-responsive';
 import { ArrowLeft, Check, ChevronLeft, Cross, Edit, Ellipsis, ExternalLink, Info, Menu, Pencil, X } from 'lucide-react';
@@ -48,6 +48,25 @@ const Hero = () => {
   const [activeBox, setActiveBox] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
 
+
+  const [scale, setScale] = useState(3.5);
+
+  useEffect(() => {
+    const updateScale = () => {
+      if (window.matchMedia('(max-width: 767px)').matches) {
+        setScale(3.5);
+      } else if (window.matchMedia('(min-width: 768px) and (max-width: 1023px)').matches) {
+        setScale(5);
+      } else {
+        setScale(5); 
+      }
+    };
+
+    updateScale();
+    window.addEventListener('resize', updateScale);
+    return () => window.removeEventListener('resize', updateScale);
+  }, []);
+
   const handleSetActiveRing = () => {
     console.log('active ring', activeRing);
     slideTo(0);
@@ -71,7 +90,7 @@ const Hero = () => {
         {menuOpen && <div onClick={() => setMenuOpen(false)} className=' absolute top-2 left-6 flex cursor-pointer lg:hidden z-50'><X className=' text-black' /></div>}
 
       <div className="w-full h-screen flex justify-center items-center overflow-auto">
-        <Canvas className="max-h-[600px] max-w-[800px]">
+        <Canvas className="max-h-[600px] max-w-[800px] flex justify-center items-center">
           <Suspense fallback={<CanvasLoader />}>
             <Leva hidden />
             <PerspectiveCamera makeDefault position={[10, 10, 10]} />
@@ -80,8 +99,8 @@ const Hero = () => {
               <RotatingModel
                 activeRing={activeRing}
                 activeBox={activeBox}
-                scale={5}
-                position={[-1, -4, 0]}
+                scale={scale}
+                position={[0, -2, 0]}
                 rotation={[0.1, -Math.PI, 0]}
               />
             </HeroCamera>

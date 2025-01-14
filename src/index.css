@@ -19,8 +19,6 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 900px;
-  height: 900px;
   transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
@@ -33,31 +31,12 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 1600px;
-  height: 1600px;
   transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
   align-items: center;
   animation: rotate2 250s linear infinite;
   transform-origin: center;
-}
-
-
-.circle-image {
-  position: absolute;
-  width: 280px;
-  height: 280px;
-  object-fit: cover;
-  /* border: #fff solid 2px; */
-  /* border-radius: 50%; */
-}
-
-.circle-image-1 {
-  position: absolute;
-  width: 280px;
-  height: 280px;
-  object-fit: cover;
 }
 
 .circle-image:nth-child(1) { transform: rotate(0deg) translate(350px) rotate(0deg); }
@@ -79,6 +58,31 @@ body {
 .circle-image-1:nth-child(10) { transform: rotate(270deg) translate(700px) rotate(-300deg); }
 .circle-image-1:nth-child(11) { transform: rotate(300deg) translate(700px) rotate(-330deg); }
 .circle-image-1:nth-child(12) { transform: rotate(330deg) translate(700px) rotate(-360deg); }
+
+
+@media (max-width: 995px) {
+  .circle-image:nth-child(1) { transform: rotate(0deg) translate(180px) rotate(0deg); }
+  .circle-image:nth-child(2) { transform: rotate(60deg) translate(180px) rotate(-60deg); }
+  .circle-image:nth-child(3) { transform: rotate(120deg) translate(180px) rotate(-120deg); }
+  .circle-image:nth-child(4) { transform: rotate(180deg) translate(180px) rotate(-180deg); }
+  .circle-image:nth-child(5) { transform: rotate(240deg) translate(180px) rotate(-240deg); }
+  .circle-image:nth-child(6) { transform: rotate(300deg) translate(180px) rotate(-300deg); }
+
+  .circle-image-1:nth-child(1) { transform: rotate(0deg) translate(350px) rotate(0deg); }
+  .circle-image-1:nth-child(2) { transform: rotate(30deg) translate(350px) rotate(-30deg); }
+  .circle-image-1:nth-child(3) { transform: rotate(60deg) translate(350px) rotate(-90deg); }
+  .circle-image-1:nth-child(4) { transform: rotate(90deg) translate(350px) rotate(-120deg); }
+  .circle-image-1:nth-child(5) { transform: rotate(120deg) translate(350px) rotate(-150deg); }
+  .circle-image-1:nth-child(6) { transform: rotate(150deg) translate(350px) rotate(-180deg); }
+  .circle-image-1:nth-child(7) { transform: rotate(180deg) translate(350px) rotate(-210deg); }
+  .circle-image-1:nth-child(8) { transform: rotate(210deg) translate(350px) rotate(-240deg); }
+  .circle-image-1:nth-child(9) { transform: rotate(240deg) translate(350px) rotate(-270deg); }
+  .circle-image-1:nth-child(10) { transform: rotate(270deg) translate(350px) rotate(-300deg); }
+  .circle-image-1:nth-child(11) { transform: rotate(300deg) translate(350px) rotate(-330deg); }
+  .circle-image-1:nth-child(12) { transform: rotate(330deg) translate(350px) rotate(-360deg); }
+}
+
+
 
 @keyframes rotate {
   0% { transform: translate(-50%, -50%) rotate(0deg); }
